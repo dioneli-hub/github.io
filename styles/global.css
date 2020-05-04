@@ -1,0 +1,85 @@
+h1 {
+    color: red;
+}
+
+body {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.logo {
+    font-size: 23px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: cornsilk;
+    box-shadow: 3px 0 2px 1px black;
+}
+
+.main, .nav, .footer {
+    padding: 25px 10%;
+}
+
+.main {
+    min-height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main.home {
+    background-image: url("../images/AdobeStock_332298426.jpeg");
+}
+
+.footer {
+    background: #cecece;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.nav-link.active {
+    color: lightseagreen;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#covid-info {
+    color: white;
+    text-shadow: 1px 0px 1px black;
+}
+
+.card-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-item {
+    width: 45%;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 1px 1px #cecece;
+    border-radius: 10px;
+    padding: 10px;
+}
