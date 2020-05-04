@@ -24,7 +24,7 @@ fetch('https://api.covid19api.com/summary')
 
 function getInfoTemplate(info) {
     return `<h2>Всего случаев заражения: ${info.TotalConfirmed}.</h2>
-            <h2>Новых случае заражения: ${info.NewConfirmed}.</h2>
+            <h2>Новых случаев заражения: ${info.NewConfirmed}.</h2>
             <h2>Всего смертей: ${info.TotalDeaths}.</h2>
             <h2>Новых смертей: ${info.NewDeaths}.</h2>
             <h2>Всего выздоровело: ${info.TotalRecovered}.</h2>
